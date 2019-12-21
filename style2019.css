@@ -1,0 +1,45 @@
+.intem-block:hover .img{
+    background:#228b22 ;
+}
+.intem3:hover{
+    background: #ffd700;
+}
+.img::before{
+    content: "";
+    position: absolute;
+    background: #adff2f;
+    width: 10%;
+    height: 21px
+    z-index: inherit -1;
+}
+.intem-block:hover .name-item{
+    background: #ff69b4;
+}
+.intem-block:hover .img::before{
+    background-color: #f0e68c;
+}
+a:hover{
+    color: #7cfc00;
+}
+.outer{
+    color: #20b2aa;
+    display: inline-table;
+}
+.div{
+    text-align: center;
+}
+::after{
+    content: "";
+    position: absolute;
+    top: 67px;
+    right: 460px;
+    height: 7px;
+    width: 210px;
+    background-color:#008000;
+}
+.img{
+    width: 200px;
+}
+.outer{
+    display: inline-block;
+}
